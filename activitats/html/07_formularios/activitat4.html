@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Busqueda de camaras de fotos</h1>
+    <form>
+        <label>
+            Marca
+            <input type="text" placeholder="Ej: Canon">
+        </label>
+        <label>
+            Tipo de camara
+            <select>
+                <option value="">--Selecciona--</option>
+                <option value="reflex">Reflex</option>
+                <option value="compacta">Compacta</option>
+                <option value="mirrorless">Mirrorless</option>
+                <option value="instantanea">Instantanea</option>
+            </select>
+        </label>
+
+    </br>
+    </br>
+
+        <label>Precio minimo
+        <input type="number" id="precio_min" name="precio_min" min="0" max="1000">
+        </label>
+    </br>
+    </br>
+
+        <label>Precio máximo
+        <input type="number" min="0" max="1000">
+        </label>
+    </form>
+</body>
+</html>
