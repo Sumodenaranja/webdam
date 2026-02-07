@@ -1,0 +1,17 @@
+.mercurio {
+    color: gray;
+}
+
+.marte {
+    color: red;
+}
+
+.venus {
+    color: yellow;
+}
+
+<p id="pluton" class="venus marte">Lorem ipsum</p>
+
+Busca en los ejemplos el p con la id Pluton. ¿De que color es el texto? ¿Por qué?
+
+El texto sera de color rojo, porque como las dos classes cambian el color, css se queda con la que esta mas abajo en el archivo, en este caso es marte, lo qual deja el color rojo.
