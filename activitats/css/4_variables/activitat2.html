@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rectángulo con variable local</title>
+
+    <style>
+        .rectangulo {
+            --altura: 100px;
+            height: var(--altura);
+            width: calc(var(--altura) * 2);
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi rectangulo</h1>
+    <div class="rectangulo"></div>
+
+</body>
+</html>
