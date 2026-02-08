@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de comentarios</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Sistema de comentarios</h1>
+    </header>
+    <section class="comments">
+        <h2 class="comments_title">Comentarios</h2>
+        
+        <article class="comment">
+            <header class="comment_header">
+                <span class="comment_author">Marc</span>
+                <time class="comment_date" datetime="2026-02-07">07/02/2026</time>
+            </header>
+
+            <p class="comment_text">Lorem Ipsum</p>
+        </article>
+
+        <form class="comments-form">
+            <h3 class="comments-form__title">Escribir un comentario</h3>
+
+            <label class="comments-form__label" for="author">Nombre</label>
+            <br>
+            <input class="comments-form__input" type="text" id="author">
+            
+            <br>
+            <label class="comments-form__label" for="comment">Comentario</label>
+            <br>
+            <textarea class="comments-form__textarea" id="comment"></textarea>
+            
+            <br>
+            <button class="comments-form__submit" type="submit">
+                Enviar
+            </button>
+        </form>
+    </section>
+    
+</body>
+</html>
