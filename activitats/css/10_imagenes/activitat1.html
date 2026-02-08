@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mensaje__autor{
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .mensaje__img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            max-width: 7.5rem;
+            max-height: 7.5rem;
+            min-width: 2rem;
+            min-height: 2rem;
+        }
+
+        .mensaje__fecha-creacion{
+            font-style: italic;
+            color: gray;
+        }
+
+        .mensaje__texto{
+            max-width: 50%;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chat entre dos personas</h1>
+    </header>
+    <section>
+        <article>
+            <h2 class="mensaje__autor">Andreu</h2>
+            <img class="mensaje__img" src="usuari1.jpg">
+            <p><time class="mensaje__fecha-creacion" datetime="2025-02-07">02/07/2025</time></p>
+            <p class="mensaje__texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt sapien nec leo aliquet accumsan. Pellentesque luctus, nisl in ullamcorper sodales, felis augue dictum felis, vel blandit nibh nisl non libero. Suspendisse lectus libero, mattis eget efficitur sed, tempus eget ante.
+            </p>
+        </article>
+        
+        <article>
+            <h2 class="mensaje__autor">Sergi</h2>
+            <img class="mensaje__img" src="usuari2.avif">
+            <p><time class="mensaje__fecha-creacion" datetime="2025-02-08">02/08/2025</time></p>
+            <p class="mensaje__texto">
+            Fusce accumsan maximus dolor, vel pharetra libero posuere at. Vivamus sit amet varius tellus. Vivamus pretium sit amet quam eget facilisis. Aliquam fringilla sagittis neque. Sed porta euismod leo et malesuada. Pellentesque eu mauris malesuada, ullamcorper nulla at, posuere nisi. Maecenas consectetur congue augue ac cursus. Etiam risus nunc, rhoncus in leo non, maximus rutrum felis.
+            </p>
+        </article>
+    </section>
+</body>
+</html>
