@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+
+        :root{
+            --background-color:#FBEECA;
+            --button-color:#007C89;
+            --background-text-color:#C5DBF2;
+        }
+
+        .hero{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            background-color: var(--background-color);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 0px;
+        }
+
+        .hero__middle {
+            display: flex;
+            flex-direction: row;
+}
+
+        .hero__left,
+        .hero__right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .hero__left {
+            margin-left: 10%;
+            text-align: left;
+        }
+
+        .hero__right {
+            margin-right: 10%;
+        }
+
+        .hero__right img {
+            width: 100%;
+            height: auto;
+
+            object-fit: cover;
+        }
+
+        .hero__buttons{
+            flex-direction: row;
+        }
+
+        .hero__title{
+            font-weight: 500;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero__text{
+            font-size: 1rem;
+        }
+
+        .button{
+            flex: 1;
+            padding: 1rem 2rem;
+            border: none;
+            font-weight: bold;
+        }
+        .hero__button_subscribir{
+            background-color: var(--button-color);
+            color:#fff;
+        }
+
+        .hero__button_comparar{
+            background-color: var(--background-color);
+            color: var(--button-color);
+        }
+
+        .hero__bottom-text{
+            background-color: var(--background-text-color);
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__middle">
+            <div class="hero__left">
+                <h1 class="hero__title">Ponte manos a la obra y aumenta las ventas</h1>
+                <p class="hero__text">
+                    Consigue que tus clientes interactuen
+                    y haz crecer tu negocio con la
+                    plataforma de marketing avanzada
+                    pero fácil de usar de Mailchimp.
+                </p>
+                <div class="hero__buttons">
+                    <button class="button hero__button_subscribir">Subscribete</button>
+                    <button class="button hero__button_comparar">Comparar planes</button>
+                </div>
+            </div>
+
+            <div class="hero__right">
+                <img src="hero_image.png">
+            </div>
+        </div>
+        <p class="hero__bottom-text">
+            Mailchimp ha sido adquirida por Intuit. Nuestro cofundador y CEO compartió la noticia con nuestros clientes. 
+            Léela <a href="https://mailchimp.com/es/">aquí</a> en inglés.
+        </p>
+
+
+    </header>
+</body>
+</html>
