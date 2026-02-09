@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color-principal:#007C89;
+        }
+
+        * {
+            font-family: 'Roboto',sans-serif;
+        }
+
+        .subscription-plan{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .plan__title{
+            font-weight: 600;
+            margin-bottom: 0;
+            font-size: 1.8rem;
+        }
+
+        .plan__description{
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .plan__price{
+            color: gray;
+
+
+        }
+
+        .price-emphasis{
+            font-size: 2rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        .plan__contacts{
+            color: var(--color-principal);
+            font-weight: bold;
+        }
+
+        .plan__button{
+            background-color: var(--color-principal);
+            border: none;
+            color: #fff;
+            padding: 1rem 2rem;
+            font-weight: bold;
+        }
+
+        .plan__benefits-list{
+            list-style: none; 
+            padding: 0;
+            margin: 0; 
+        }
+
+        .plan__benefits-list li {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .plan__benefits-list li::before{
+            content: '✔';
+            position: absolute;
+            left:0;
+            color: var(--color-principal);
+        }
+
+        .plan__final-information{
+            color: var(--color-principal);
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section class="subscription-plans">
+        <article class="subscription-plan">
+            <h3 class="plan__title">Premium</h3>
+            <p class="plan__description">
+                Funciones avanzadas para
+                profesionales que necesitan
+                mas versonanzacion
+            </p>
+            <p class="plan__price">
+                Desde <br>$<span class="price-emphasis">299</span><br>
+                /mes basado en 10.000 contactos*
+            </p>
+            <p class="plan__contacts">¿Cuantos contactos tienes?</p>
+            <button class="plan__button">Comprar ahora</button>
+            <p class="plan__information">Todo lo que incluye el plan Standard, mas:</p>
+            <ul class="plan__benefits-list">
+                <li>Segmentacion avanzada</li>
+                <li>Pruebas multivariantes</li>
+                <li>Informes corporativos</li>
+                <li>Puestos ilimitados y acceso basado en funciones</li>
+                <li>Asistencia técnica telefónica</li>
+            </ul>
+            <p class="plan__final-information">Acerca de Premium</p>
+        </article>
+    </section>
+</body>
+</html>
