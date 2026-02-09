@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .important-text{
+            text-decoration: underline;
+        }
+
+        .header__text{
+            display: block; 
+            width: 30%;
+            height: fit-content;
+            background-color: aquamarine;
+
+            text-align: justify;
+            text-align-last: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: fit-content;
+            width: 15rem;
+
+        }
+
+        .hero__title{
+            font-family: "Tahoma",sans-serif;
+            text-transform: lowercase;
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero__text{
+            font-size: 1rem;
+        }
+
+        .hero__button{
+            margin-right: auto;
+            border-radius: 9999px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p class="header__text">
+            We're so glad that our offer of UXDMC for free was so well received.
+            So many people joined up over the past 2 months and it's been great
+            to grow the community. <span class="important-text">The Free offer will be ending at the end of the
+            month of April and the CARE code will continue to be good for 80% off
+            any or all modules.</span>
+        </p>
+    </header>
+    <section class="hero">
+        <h1 class="hero__title">UX Design Masterclass</h1>
+        <p class="hero__text">
+            Learn how to understand people better, design stunning,
+            research-driven interfaces, and create real business value
+            from a team that's been doing it for more than 16 years.
+            This isn't just another design course.
+        </p>
+        <button type="submit" class="hero__button">Register Now</button>
+    </section>
+</body>
+</html>
