@@ -1,0 +1,4 @@
+        .imagen{
+            border-block: 2rem solid orange;
+            border-inline: 2rem dashed orange;
+        }

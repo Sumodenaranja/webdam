@@ -1,0 +1,5 @@
+        .imagen{
+            border: 2rem solid orange;
+            border-image: linear-gradient(cyan, red) 1;
+
+        }
