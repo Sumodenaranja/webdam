@@ -1,0 +1,24 @@
+        .title{
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .product-imagen{
+            min-height: 5rem;
+            max-height: 20rem;
+            min-width: 3rem;
+            max-width: 15rem;
+        }
+
+        .subtitle{
+            font-size: 1.5rem ;
+        }
+
+        .product-info{
+            font-size: 1.2rem;
+        }
+
+        .product-info--price{
+            font-size: 1.3;
+            color: green;
+        }
