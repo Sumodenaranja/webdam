@@ -1,0 +1,26 @@
+        .mensaje__autor{
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .mensaje__img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+            max-width: 7.5rem;
+            max-height: 7.5rem;
+            min-width: 2rem;
+            min-height: 2rem;
+        }
+
+        .mensaje__fecha-creacion{
+            font-style: italic;
+            color: gray;
+        }
+
+        .mensaje__texto{
+            max-width: 50%;
+            text-align: justify;
+        }
