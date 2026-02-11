@@ -1,0 +1,14 @@
+        .img-viewport {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            background-image: url("usuari1.jpg");
+            background-size: cover;
+            display: flex;
+        justify-content: center;
+            align-items: center;   
+        }
+
+        a {
+            font-size: xx-large;
+        }
