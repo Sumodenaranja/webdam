@@ -1,0 +1,26 @@
+.circulos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+
+
+.circulo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.rojo{
+    background: red;
+}
+
+.azul{
+    background: blue;
+    opacity: 0.5;
+}
+
+.azul:hover{
+    transform: translateX(-6rem);
+}
