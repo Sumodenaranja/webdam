@@ -1,0 +1,73 @@
+        :root{
+            --color-principal:#007C89;
+        }
+
+        * {
+            font-family: 'Roboto',sans-serif;
+        }
+
+        .subscription-plan{
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .plan__title{
+            font-weight: 600;
+            margin-bottom: 0;
+            font-size: 1.8rem;
+        }
+
+        .plan__description{
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .plan__price{
+            color: gray;
+
+
+        }
+
+        .price-emphasis{
+            font-size: 2rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        .plan__contacts{
+            color: var(--color-principal);
+            font-weight: bold;
+        }
+
+        .plan__button{
+            background-color: var(--color-principal);
+            border: none;
+            color: #fff;
+            padding: 1rem 2rem;
+            font-weight: bold;
+        }
+
+        .plan__benefits-list{
+            list-style: none; 
+            padding: 0;
+            margin: 0; 
+        }
+
+        .plan__benefits-list li {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .plan__benefits-list li::before{
+            content: '✔';
+            position: absolute;
+            left:0;
+            color: var(--color-principal);
+        }
+
+        .plan__final-information{
+            color: var(--color-principal);
+            font-weight: bold;
+        }
