@@ -1,0 +1,7 @@
+.filtro:hover{
+    filter: invert(100%);
+}
+.filtro{
+        height: 30rem;
+    width: auto;
+}
