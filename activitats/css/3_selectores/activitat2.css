@@ -1,0 +1,19 @@
+            h1 {
+                size: 10px;
+                font-weight: bold;
+                color: darkgray;
+            }
+
+            .volcan {
+                color: red;
+            }
+            
+            .miedo {
+                color: gray;
+                font-style: italic;
+            }
+
+            .felizidad {
+                color: yellow;
+                font-weight: bold;
+            }

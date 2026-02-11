@@ -1,0 +1,51 @@
+        * {
+            font-family: 'Roboto', sans-serif;
+            font-size: medium;
+            line-height: 1.2;
+        }
+
+        .header__title{
+            
+            font-size: xx-large;
+            color:red;
+            font-weight: 300;
+        }
+
+        .title__blog{
+            font-size: xx-large;
+            font-weight: 900;
+        }
+
+        .description__name{
+            background-color: red;
+            color: white;
+        }
+        
+        .description__link{
+            color:red;
+            text-decoration: none;
+        }
+
+        .about-me__title{
+            font-size: x-large;
+            font-weight: lighter;
+            color: #303030;
+        }
+
+        .article__time{
+            color: gray;
+            font-style: italic;
+        }
+
+        .article__text__title{
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration-color: #a7a7a7;
+        }
+
+        .article__text__read-more{
+            color: red;
+            text-decoration: underline;
+            text-decoration-color: #a7a7a7;
+        }
