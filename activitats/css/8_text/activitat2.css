@@ -1,0 +1,33 @@
+        .title{
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: .15rem;
+            text-transform: uppercase;
+        }
+
+        .title:hover{
+            font-style: italic;
+            color: blue;
+        }
+
+        .author{
+            font-size: 2rem;
+            font-style: italic;
+            word-spacing: .75rem;
+        }
+
+        .subtitle{
+            font-size: 2.2rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .subtitle:hover{
+            font-weight: bold;
+            color: red;
+        }
+
+        .regular-text{
+            font-size: 1.2rem;
+            text-align:justify;
+        }
