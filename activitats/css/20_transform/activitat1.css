@@ -1,0 +1,12 @@
+.casi-recto{
+    padding: 1rem;
+    border-radius: 25px;
+    border:1px solid black;
+    background-color:red;
+    color: black;
+    font-weight: bold;
+}
+
+.casi-recto:hover{
+    transform: rotate(15deg);
+}
