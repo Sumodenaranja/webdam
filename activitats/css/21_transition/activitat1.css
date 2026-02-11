@@ -1,0 +1,32 @@
+.campos__nombre:focus-within .etiqueta,
+.campos__telefono:focus-within .etiqueta{
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    font-size: 2rem;
+    transform-origin: left center;
+
+}
+
+.campos__telefono:focus-within,
+.campos__nombre:focus-within{
+    border: none;
+    transform: scale(1.2);
+    transition-duration: 2s;
+    transform-origin: left center;
+}
+
+
+.button{
+    padding: 1rem;
+    border-radius: 25px;
+    color:black;
+    font-weight: bold;
+    background-color: red;
+}
+
+.button:hover{
+    transition-duration: 2s;
+    background: rgba(255, 0, 0, 0.0);
+;
+
+}
