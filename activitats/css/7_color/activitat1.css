@@ -1,0 +1,22 @@
+        .company{
+            font-weight: bold;
+        }
+
+        .kodak{
+            font-weight: bold;
+            color: #F0BA18;
+        }
+
+        .tiempo{
+            color: #FFF;
+            background-color: #0561AB;
+        }
+
+        .fotografia{
+            color: rebeccapurple;
+        }
+
+        .farmaceuticos{
+            color: #FFF;
+            background-color: #05ab26;
+        }
