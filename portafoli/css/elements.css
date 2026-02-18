@@ -1,0 +1,54 @@
+:root{
+    --primary-background: #0F172A;
+    --dry-sage: #CCC9A1;
+    --elements-buttons: #2A6C6C;
+    --secondary-elements: #6B8E6B;
+    --informational: #16213C;
+    --gray-placeholder: #505050;
+    --header-color: rgba(204, 201, 161, 0.05);
+    --header-margin: 10px;
+    --title-font:'Montserrat', sans-serif;
+    --text-font:'Playfair Display', serif;
+    
+}
+
+header {
+    font-family: var(--title-font);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    padding-block: 1.5%;
+    color: var(--dry-sage);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  
+}
+
+.header__logo{
+    margin-left: var(--header-margin);
+}
+
+ul.header__navigation-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    margin-right: var(--header-margin);
+}
+
+.element__button{
+    background-color: var(--elements-buttons);
+    padding: 1rem;
+    border-radius: 1px solid black;
+    border-radius: 20px;
+}
+
+.element__logo{
+    
+}

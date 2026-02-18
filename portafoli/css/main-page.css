@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+:root{
+    --primary-background: #0F172A;
+    --dry-sage: #CCC9A1;
+    --elements-buttons: #2A6C6C;
+    --secondary-elements: #6B8E6B;
+    --informational: #16213C;
+    --gray-placeholder: #505050;
+    --header-color: rgba(204, 201, 161, 0.05);
+    --header-margin: 10px;
+    --title-font:'Montserrat', sans-serif;
+    --text-font:'Playfair Display', serif;
+    
+}
+
+* {
+    border: 1px solid black;
+    /* width: 100%;
+    height: 100%; */
+    padding:0;
+    margin: 0;
+}
+
+.pagina-principal{
+    background-color: var(--primary-background);
+    width: 100%;
+    height: 100vh;
+    padding-top: 2.5rem;
+    box-sizing: border-box;
+    color: var(--dry-sage);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pagina-principal__informacion{
+    max-width: 60%;
+}
+
+.pagina-principal__title{
+    font-family: var(--title-font);
+    font-weight: bold;
+    margin-block: 1rem;
+    margin-inline: 2rem;
+}
+
+.pagina-principal__subtitle{
+    font-family: var(--text-font);
+    font-size: small;
+    margin-inline: 2rem;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    max-height: 100%;
+    padding: 0.5rem;
+    background-color: var();
+}
