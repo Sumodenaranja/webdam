@@ -1,0 +1,7 @@
+<svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Círculos en escalera -->
+  <circle cx="80"  cy="150" r="10" fill="#A59C83"/>
+  <circle cx="105" cy="125" r="15" fill="#CFC6AE"/>
+  <circle cx="140" cy="100"  r="20" fill="#8E866E"/>
+</svg>
