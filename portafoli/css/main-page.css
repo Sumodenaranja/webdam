@@ -42,6 +42,7 @@
 
 .pagina-principal__title{
     font-family: var(--title-font);
+    font-size: 4vw;
     font-weight: bold;
     margin-block: 1rem;
     margin-inline: 2rem;
@@ -49,7 +50,7 @@
 
 .pagina-principal__subtitle{
     font-family: var(--text-font);
-    font-size: small;
+    font-size: 1.5vw;
     margin-inline: 2rem;
 }
 
