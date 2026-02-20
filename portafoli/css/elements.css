@@ -42,7 +42,7 @@ ul.header__navigation-list{
 .info-card{
     background-color: var(--informational);
     width: 80vw;
-    min-height: 15vw;
+    min-height: 3vw;
     border-radius: 20px;
     padding-inline: 5vw;
     padding-block: 1.5vw;
@@ -101,12 +101,15 @@ ul.header__navigation-list{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap:2rem
     
 }
 
 .info-card__education-center__title{
     font-family: var(--title-font);
-    font-size: 1vw;
+    font-size: 1.5vw;
+    text-align: center;
+
     
 }
 
