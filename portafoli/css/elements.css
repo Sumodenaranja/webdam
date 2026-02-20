@@ -1,19 +1,8 @@
-:root{
-    --primary-background: #0F172A;
-    --dry-sage: #CCC9A1;
-    --elements-buttons: #2A6C6C;
-    --secondary-elements: #6B8E6B;
-    --informational: #16213C;
-    --gray-placeholder: #505050;
-    --header-color: rgba(204, 201, 161, 0.05);
-    --header-margin: 10px;
-    --title-font:'Montserrat', sans-serif;
-    --text-font:'Playfair Display', serif;
-    
-}
+@import url("variables.css");
 
 header {
     font-family: var(--title-font);
+    font-size: 2vw;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
@@ -43,12 +32,14 @@ ul.header__navigation-list{
 }
 
 .element__button{
+    font-size: 2vw;
     background-color: var(--elements-buttons);
-    padding: 1rem;
+    padding: 1vw;
     border-radius: 1px solid black;
     border-radius: 20px;
 }
 
-.element__logo{
-    
+.info-card{
+    background-color: var(--informational);    
 }
+
