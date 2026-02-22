@@ -40,9 +40,10 @@ ul.header__navigation-list{
 }
 
 .info-card{
+    margin-bottom: 1.5vw;
     background-color: var(--informational);
     width: 80vw;
-    min-height: 3vw;
+    min-height: 8vw;
     border-radius: 20px;
     padding-inline: 5vw;
     padding-block: 1.5vw;
@@ -56,7 +57,9 @@ ul.header__navigation-list{
 }
 
 .info-card__extra {
+    margin-top: 5px;
     max-height: 0;
+    font-size: 1.1vw;
     overflow: hidden;
     display: block;
     transition: max-height 0.4s ease;
@@ -117,6 +120,7 @@ ul.header__navigation-list{
 .info-card__education-center__logo{
     width: 5.5vw;
     height: auto;
+    border-radius: 50%;
 }
 
 .info-card__view-more {
