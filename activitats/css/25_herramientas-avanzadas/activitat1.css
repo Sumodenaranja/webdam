@@ -1,0 +1,84 @@
+:root{
+    --duracion-animacion: 8s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@keyframes movimiento-luna {
+    0%{
+        left: -25%;
+    } 30%{
+        left: 30%;
+    } 70%{
+        left: 70%
+    } 100% {
+        left: 125%;
+    }
+}
+
+@keyframes cambio-fondo {
+    0% {
+        background: skyblue;
+    }
+
+    30% {
+        background: skyblue;
+    }
+
+    45% {
+        background-color: black;
+    }
+
+    70% {
+        background: skyblue
+    }
+
+    100% {
+        background: skyblue;
+    }
+}
+
+.viewport {
+  min-height: 100vh;
+  position: relative; 
+  display: flex;
+
+    animation-name: cambio-fondo;
+    animation-duration: var(--duracion-animacion);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.circulo{
+    position:absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.sol{
+    background-color: yellow;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5rem;
+
+}
+
+.luna{
+    margin-top: 5rem;
+    left: -25%;
+    background-color: white;
+    opacity: 0.75;
+    position: relative;
+
+    animation-name: movimiento-luna;
+    animation-duration: var(--duracion-animacion);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+

@@ -1,0 +1,30 @@
+
+.noria{
+      position: relative;
+      width:300px
+}
+
+.base-noria{
+    width: 100%;
+    display:block;
+}
+
+.parte-giratoria{
+    position:absolute;
+    bottom: 19.49%;
+    left:11.84%;
+    width: 77%;
+    animation-name: rotacion-noria;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotacion-noria{
+    from{
+        transform: rotate(0deg); 
+    } to {
+        transform: rotate(360deg);
+    }
+}

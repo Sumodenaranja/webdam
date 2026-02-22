@@ -3,7 +3,6 @@
 @import url("variables.css");
 
 * {
-    /* border: 1px solid black; */
     padding:0;
     margin: 0;
 }
@@ -18,31 +17,27 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
 }
 
 .pagina-principal__informacion{
-    max-width: 60%;
+    width: 100%;
 }
 
 .pagina-principal__title{
     font-family: var(--title-font);
-    font-size: 3.75vw;
+    font-size: 3.5vw;
     font-weight: bold;
     margin-block: 1rem;
     margin-inline: 2rem;
 }
 
-.pagina-principal__subtitle{
-    font-family: var(--text-font);
-    font-size: 1.5vw;
-    margin-inline: 2rem;
-}
 
 .sidebar{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
     margin-inline-end: 2rem;
 
@@ -50,10 +45,25 @@
     width: 100%;
     padding: 0.5rem;
     background-color: var();
+    margin-top:auto;
+    margin-bottom: 6vw;
+}
+
+.sidebar__text-container{
+    max-width: 60%;
+}
+
+.sidebar__subtitle{
+    font-family: var(--text-font);
+    font-size: 1.5vw;
+    margin-inline: 2rem;
+    max-width: 60%;
+    margin-inline: 3rem;
 }
 
 .sidebar__button{
     justify-content: center;
     align-items: flex-end;
     margin-block: 5vh;
+    max-width: 40%;
 }

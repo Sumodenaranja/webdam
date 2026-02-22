@@ -1,0 +1,83 @@
+:root{
+    --watch-size: 15rem
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.contorno-reloj{
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.reloj{
+    border: 1rem solid black;
+    width: var(--watch-size);
+    height: var(--watch-size);
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.center-point{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.aguja{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: center bottom;
+    transform: translate(-50%, -100%);
+}
+
+.aguja-hora{
+    width: 8px;
+    height: 30%;
+    background-color: black;
+    border-radius: 5px;
+
+    animation: aguja-animacion 216000s linear infinite;    
+    }
+
+
+.aguja-minuto{
+    width: 4px;
+    height: 35%;
+    background-color: black;
+    animation: aguja-animacion 3600s linear infinite;    
+
+}
+
+
+.aguja-segundo{
+    width: 2px;
+    height: 45%;
+    background-color: yellow;
+    animation: aguja-animacion 60s linear infinite;   
+}
+
+@keyframes aguja-animacion {
+    from{
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}

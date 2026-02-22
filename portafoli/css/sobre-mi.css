@@ -9,15 +9,15 @@
 .apartado-formacion{
     background-color: var(--primary-background);
     width: 100%;
-    height: 100vh;
-    padding-top: 2.5rem;
+    height: auto;
+    padding-block: 5rem;
     box-sizing: border-box;
     color: var(--dry-sage);
 
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vw;
+
 }
 
 .formacion__titulo{

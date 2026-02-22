@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-container{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+
+    animation: spinning-circle 3s infinite;
+}
+
+.circle {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+}
+
+.c1 { background:white;     transform: rotate(0deg) translate(1rem); }
+.c2 { background:azure;     transform: rotate(72deg) translate(1rem); }
+.c3 { background:beige;     transform: rotate(144deg) translate(1rem); }
+.c4 { background:gainsboro; transform: rotate(216deg) translate(1rem); }
+.c5 { background:gray;      transform: rotate(288deg) translate(1rem); }
+
+
+
+@keyframes spinning-circle {
+    from{
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
