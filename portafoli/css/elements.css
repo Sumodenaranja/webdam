@@ -93,6 +93,7 @@ ul.header__navigation-list{
 
 .info-card__description{
     font-family: var(--text-font);
+    font-size:1.2vw;
 }
 
 
