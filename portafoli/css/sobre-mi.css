@@ -1,16 +1,24 @@
 @import url("variables.css");
 
 * {
-    /* border: 1px solid black; */
     padding:0;
     margin: 0;
 }
 
-.apartado-formacion{
+.sobre-mi{
     background-color: var(--primary-background);
     width: 100%;
     height: auto;
     padding-block: 7.5vw;
+    box-sizing: border-box;
+    color: var(--dry-sage);
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apartado-formacion{
     box-sizing: border-box;
     color: var(--dry-sage);
 
@@ -24,7 +32,6 @@
     font-family: var(--title-font);
     color: var(--dry-sage);
     font-size: 2.5vw;
-    margin-left: 5%;
     font-weight: bold;
     align-self: flex-start;
     margin-bottom: 1rem;

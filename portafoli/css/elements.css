@@ -43,7 +43,6 @@ ul.header__navigation-list{
     font-size: 2vw;
     background-color: var(--elements-buttons);
     padding: 1vw;
-    border-radius: 1px solid black;
     border-radius: 20px;
 }
 
@@ -67,7 +66,7 @@ ul.header__navigation-list{
 .info-card__extra {
     margin-top: 5px;
     max-height: 0;
-    font-size: 1.1vw;
+    font-size: 1vw;
     overflow: hidden;
     display: block;
     transition: max-height 0.4s ease;
@@ -77,10 +76,14 @@ ul.header__navigation-list{
     max-height: 500px;
 }
 
+.info-card__view-more{
+    font-size: 1.1vw;
+}
+
 .info-card__view-more::before {
-  content: "Leer más ↗";
-  cursor: pointer;
-  font-weight: 600;
+    content: "Leer más ↗";
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .info-card__toggle:checked ~ .info-card__view-more::before {
