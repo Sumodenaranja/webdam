@@ -9,7 +9,7 @@
     background-color: var(--primary-background);
     width: 100%;
     height: 100vh;
-    padding-top: 2.5rem;
+    padding-top: 7.5vh;
     box-sizing: border-box;
     color: var(--dry-sage);
     display:flex;
@@ -26,16 +26,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:5px
+    gap: 0.5vw;
 }
 
 .formulario__title{
     font-family: var(--title-font);
     font-size: 3vw;
     background-color: var(--elements-buttons);
-    padding: 1vw;
+    padding: 0.9vw;
     border-radius: 20px;
 }
 
 
+.formulario__introduce-informacion{
+    width: 60%;
+    border-radius: 5px;
+    min-height: 5vh;
+}
 
+.formulario__label{
+    align-self: flex-start;
+    margin-left: 20%;
+    font-family: var(--text-font);
+}

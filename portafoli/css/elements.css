@@ -18,6 +18,14 @@ header {
     z-index: 1000;  
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:var(--dry-sage);
+}
+
 .header__logo{
     margin-left: var(--header-margin);
 }

@@ -9,22 +9,25 @@
 </head>
 <body>
     <header>
-        <span class="header__logo">Marc Lacasa</span>
+        <span class="header__logo"><a href="index.html">Marc Lacasa</a></span>
         <nav>
             <ul class="header__navigation-list">
                 <li><a href="sobre-mi.html">Sobre mi</a></li>
-                <li><a>Proyectos</a></li>
-                <li><a>Contacto</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="pagina-principal-formulario">
         <form class="formulario">
             <h1 class="formulario__title">Ponte en contacto conmigo</h1>
-            <label class="formulario__introduce-informacion" for="introduce-email">Introduce tu correo electronico:</label>
-            <input id="introduce-email" class="introduce-email" type="email" placeholder="Ej: usuario@dominio.com" required/>
-            <label class="formulario__introduce-informacion" for="introduce-mensaje">Introduce el mensaje que deseas enviar:</label>
-            <textarea id="introduce-mensaje" class="introduce-mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>            
+            
+            <label class="formulario__label" for="introduce-email">Introduce tu correo electronico:</label>
+            <input class="formulario__introduce-informacion introduce-email" class="introduce-email" type="email" placeholder="Ej: usuario@dominio.com" required/>
+            
+            <label class="formulario__label" for="introduce-mensaje">Introduce el mensaje que deseas enviar:</label>
+            <textarea class="formulario__introduce-informacion introduce-mensaje" class="introduce-mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>            
+            
             <button class="element__button">Enviar</button>
         </form>
 
