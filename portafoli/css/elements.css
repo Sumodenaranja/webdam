@@ -1,5 +1,10 @@
 @import url("variables.css");
 
+* {
+    padding:0;
+    margin: 0;
+}
+
 header {
     font-family: var(--title-font);
     font-size: 2vw;
@@ -47,6 +52,7 @@ ul.header__navigation-list{
     background-color: var(--elements-buttons);
     padding: 1vw;
     border-radius: 20px;
+    font-family: var(--text-font);
 }
 
 .info-card{

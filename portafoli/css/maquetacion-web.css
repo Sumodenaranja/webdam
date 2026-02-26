@@ -1,6 +1,4 @@
-@import url("variables.css");
-
-.sobre-mi{
+main{
     background-color: var(--primary-background);
     width: 100%;
     height: auto;
@@ -13,8 +11,7 @@
     align-items: center;
 }
 
-.apartado-cursos,
-.apartado-formacion{
+.maquetacion-imagenes{
     box-sizing: border-box;
     color: var(--dry-sage);
 
@@ -24,12 +21,20 @@
 
 }
 
-.sobre-mi__titulo{
+.maquetacion__titulo{
     font-family: var(--title-font);
     color: var(--dry-sage);
     font-size: 2.5vw;
     font-weight: bold;
     align-self: flex-start;
-    margin-bottom: 1rem;
+    margin-block: 1rem;
 }
 
+img{
+    width: 70%;
+    height: auto;
+}
+
+a{
+    margin-block: 1vh;
+}
