@@ -1,11 +1,5 @@
 @import url(variables.css);
 
-* {
-    border: 1px black solid;
-    padding:0;
-    margin: 0;
-}
-
 .pagina-principal-proyectos{
     background-color: var(--primary-background);
     width: 100%;

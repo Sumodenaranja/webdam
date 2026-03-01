@@ -147,6 +147,25 @@ ul.header__navigation-list{
     margin-top: auto;
 }
 
+footer{
+    width:  100%;
+    min-height: 5vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--informational);
+    color: var(--dry-sage);
+    font-family: var(--text-font);
+    flex-direction: row;
+    position: relative;
+}
+
+.social-media{
+    position: absolute;
+    display: flex;
+    right: 2rem;
+    gap:1vw;
+}
 
 
 

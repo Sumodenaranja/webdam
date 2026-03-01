@@ -10,7 +10,7 @@
     --informational: #16213C;
     --gray-placeholder: #505050;
     --header-color: rgba(204, 201, 161, 0.1);
-    --header-margin: 10px;
+    --header-margin: 1.5rem;
     --title-font:'Inter', sans-serif;
     --text-font:'Playfair Display', serif;   
 }
