@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: skyblue;
+    margin: 0;
+    border:1px;
+}
+
+.pendulo{
+    position:relative;
+    height: 25rem;
+}
+
+.pendulo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.palo {
+  width: 2px;
+  height: 200px;
+  background: black;
+  margin: 0 auto;
+  transform-origin: top center;
+  animation: movement 2s ease-in-out infinite alternate;
+  position: relative;
+}
+
+.bola {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes movement {
+    from{
+        transform:  rotate(-30deg);
+    } to{
+        transform:  rotate(30deg);
+    }
+}
