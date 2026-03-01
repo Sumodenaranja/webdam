@@ -24,7 +24,6 @@ body {
 
   transform-origin: top center;
 
-  /* Rotate and then translate down to close the gap */
   transform: rotateX(30deg) rotateY(-5deg) translateY(10%) scale(1.2);
   
   backface-visibility: hidden;
