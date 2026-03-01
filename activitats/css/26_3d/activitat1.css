@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    perspective: 1000px;
+}
+
+img{
+    height: 30rem;
+    width: auto;
+}
+
+img:hover{
+    transform: translate3d(0rem, 0rem, 10rem);
+    transform: rotateX(-15deg);
+}
+
+@keyframes animation {
+    from{}
+}
