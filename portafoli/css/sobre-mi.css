@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.apartado-cursos,
+.apartado-laboral,
 .apartado-formacion{
     box-sizing: border-box;
     color: var(--dry-sage);
@@ -33,3 +33,6 @@
     margin-bottom: 1rem;
 }
 
+.error-fix{
+    color:var(--informational)
+}

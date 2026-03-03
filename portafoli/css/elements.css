@@ -27,6 +27,7 @@ header {
 }
 
 a{
+    color: var(--dry-sage);
     text-decoration: none;
 }
 
@@ -75,7 +76,7 @@ ul.header__navigation-list{
 .info-card__extra {
     margin-top: 5px;
     max-height: 0;
-    font-size: 1vw;
+    font-size: 1.2vw;
     overflow: hidden;
     display: block;
     transition: max-height 0.4s ease;
@@ -116,7 +117,7 @@ ul.header__navigation-list{
 
 .info-card__description{
     font-family: var(--text-font);
-    font-size:1.2vw;
+    font-size:1.3vw;
 }
 
 

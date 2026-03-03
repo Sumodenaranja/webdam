@@ -21,4 +21,24 @@ main{
 
 table{
     border-collapse: collapse;
+    margin-block: 5vh;
+    background-color: var(--dry-sage);
+    border-radius: 20px;
+    color: black;
+    font-family: var(--text-font);
+    font-weight: bold;
+}
+
+.actividades a{
+    color: black;
+}
+.actividades a:visited{
+    color: black;
+}
+
+th,td{
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid var(--primary-background);
+    vertical-align: middle;
 }
